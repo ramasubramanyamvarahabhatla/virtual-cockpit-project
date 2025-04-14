@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Notice</title>
+    <link rel="stylesheet" href="legal-notice.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+            <img src="logo.png" alt="Virtual Cockpit Logo" />
+          </div>
+          <button class="menu-toggle">☰</button>
+          <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#">Pricing</a>
+            <a href="#">Command center</a>
+            <a href="multi-display.html">Easy Multi Display - Software</a>
+            <a href="founder.html">Founder</a>
+            <a href="#" class="legal-btn">Legal Notice</a>
+          </nav>
+          
+      </header>
+
+      <section class="contact-form-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name: <span>*</span></label>
+            <input type="text" id="name" name="name" required />
+          </div>
+      
+          <div class="form-row">
+            <label for="company">Company name: <span>*</span></label>
+            <input type="text" id="company" name="company" required />
+          </div>
+      
+          <div class="form-row">
+            <label for="email">E-mail address: <span>*</span></label>
+            <input type="email" id="email" name="email" required />
+          </div>
+      
+          <div class="form-row">
+            <label for="message">Message: <span>*</span></label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+      
+          <div class="form-consent">
+            <input type="checkbox" id="consent" required />
+            <label for="consent">
+              * I hereby agree that my data entered in the contact form will be stored electronically, and will be processed and used for the purpose of establishing contact. I am aware that I can revoke my consent at any time.
+            </label>
+          </div>
+      
+          <p class="note"><strong>Note:</strong> Fields marked with <span>*</span> are required</p>
+      
+          <button type="submit">Send Form</button>
+        </form>
+      </section>
+      
+      <section class="legal-section">
+        <p class="legal-intro">
+          I hereby agree that my data entered in the contact form will be stored electronically, and will be processed and used for the purpose of establishing contact. I am aware that I can revoke my consent at any time
+        </p>
+      
+        <h2 class="legal-heading">Legal notice</h2>
+      
+        <div class="legal-info">
+          <p><strong>Name of company</strong><br />
+          Virtual Cockpit UK Limited</p>
+      
+          <p><strong>Registered office</strong><br />
+          71 75 Shelton street, Covent Garden, London, England, WC2H 9JQ</p>
+      
+          <p><strong>Contact details</strong><br />
+          Tel: +33.6.79.07.55.19<br />
+          E-mail: gco@virtual-cockpit.com</p>
+      
+          <p><strong>Fax:</strong></p>
+          <p><strong>Business ID no.</strong><br />
+          crn : 10062777</p>
+        </div>
+      
+        <div class="legal-map">
+          <img src="map.png" alt="Map to office" />
+          <!-- Or you can embed real Google Map here -->
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-links">
+          <span>🖨</span>
+          <a href="#">Print</a> |
+          <a href="#">Sitemap</a>
+        </div>
+        <div class="footer-copy">
+          © Virtual Cockpit
+        </div>
+      </footer>      
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const toggle = document.querySelector('.menu-toggle');
+          const nav = document.querySelector('.nav-links');
+      
+          toggle.addEventListener('click', () => {
+            nav.classList.toggle('show-menu');
+          });
+        });
+      </script>
+      
+      
+      
+      
+      
+</body>
+</html>

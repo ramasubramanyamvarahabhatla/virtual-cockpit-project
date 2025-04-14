@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Virtual Cockpit</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="top-bar">
+        <div class="logo">
+          <img src="logo.png" alt="Virtual Cockpit Logo" />
+        </div>
+        <button class="menu-toggle">☰</button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="#">Pricing</a>
+          <a href="#">Command Center</a>
+          <a href="multi-display.html">Easy Multi Display</a>
+          <a href="founder.html">Founder</a>
+          <a href="legal-notice.html" class="legal-btn">Legal Notice</a>
+        </nav>
+      </header>
+
+  <section class="hero">
+    <img src="div.section-bg-shade.png" alt="Hero Background" class="hero-bg" />
+    <div class="hero-overlay">
+      <h1>We make your control room easy, and collaborative with our software</h1>
+      <p>(It costs 20 times less than traditional competitors)</p>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <p>Already 5.4 million French inhabitants are protected by the command centers using our technology</p>
+  </section>
+  
+  <section class="videos-section">
+    <div class="video-card">
+        <a href="https://youtu.be/e0lDfm6bhkI" target="_blank">
+          <img src="https://img.youtube.com/vi/e0lDfm6bhkI/0.jpg" alt="Video 1 Thumbnail" />
+          <div class="play-icon">&#9658;</div>
+        </a>
+        <p>Interview with city at the National Firefighters Congress in Toulouse</p>
+      </div>
+      
+      <div class="video-card">
+        <a href="https://youtu.be/JK-zdKj8SLs" target="_blank">
+          <img src="https://img.youtube.com/vi/JK-zdKj8SLs/0.jpg" alt="Video 2 Thumbnail" />
+          <div class="play-icon">&#9658;</div>
+        </a>
+        <p>Immersive simulation intervention of our mobile command center</p>
+      </div>
+  </section>
+
+  <section class="gallery-section">
+    <h2>National Firefighters Congress in Toulouse, France with part of the team of Easy Multi Display (October 2023):</h2>
+  
+    <div class="gallery-wrapper">
+      <img src="national firefighters congress gallery.png" alt="National Firefighters Congress Gallery" />
+    </div>
+  </section>
+
+  <section class="download-banner">
+    <p>
+      <strong>DOWNLOAD FREE VIDEO WALL SOFTWARE TRIAL UNLIMITED (EMD V.1.0.8)</strong><br />
+      <span>Get Instant Access</span>
+    </p>
+  </section>
+  
+  <section class="contact-section">
+    <h2>HOW TO GET IN TOUCH?</h2>
+    <p>
+      We are happy to help you and answer any of your questions, please fill the form below and we will<br/>
+      come back to you as fast as we can :
+    </p>
+    <a href="#" class="contact-button">Contact us</a>
+  </section>
+  
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#">🖨 Print</a> | 
+      <a href="#">Sitemap</a>
+    </div>
+    <div class="footer-brand">
+      © Virtual Cockpit
+    </div>
+  </footer>
+  
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.nav-links');
+      toggle.addEventListener('click', function () {
+        nav.classList.toggle('show-menu');
+      });
+    });
+  </script>
+
+  
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Founder - Virtual Cockpit</title>
+  <link rel="stylesheet" href="founder.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="logo">
+      <img src="logo.png" alt="Virtual Cockpit Logo">
+    </div>
+    <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Command Center</a>
+      <a href="multi-display.html">Easy Multi Display - Software</a>
+      <a href="#" class="active">Founder</a>
+      <a href="legal-notice.html">Legal Notice</a>
+    </nav>
+  </header>
+  
+
+  <!-- Founder Image Section -->
+<section class="founder-section">
+    <img src="founder images/founder.jpg.png" alt="Guy CONDAMINE" class="founder-img">
+    <h2 class="founder-title">The Founder : Guy CONDAMINE</h2>
+  </section>
+
+  <!-- About Founder Section -->
+<section class="about-founder">
+    <div class="about-box">
+      <h3>Guy CONDAMINE</h3>
+      <p>
+        Whether you're a small business or a large enterprise, Easy Multi Display is a Digital
+        Signage & Video Wall Software that makes it easy to showcase your multimedia on multiple displays.
+      </p>
+      <p>
+        With 1 Standard license, you can display up to 24 different sources of media at once,
+        across on 1 to 24 different screens with one PC. Talk to us about our enterprise solutions
+        for limitless display options.
+      </p>
+      <p>
+        For us, every customer is unique and this is why we make a point to provide a 100% tailor-made
+        service adapted to each customer!
+      </p>
+    </div>
+  </section>
+  
+  <!-- Contact Us Section -->
+<section class="contact-section">
+    <h2>How to Get in Touch?</h2>
+    <p>We are happy to help you and answer any of your questions.Please fill out the form below and we willome back to you as fast as we can:</p>
+    <a href="#" class="contact-button">Contact Us</a>
+  </section>
+
+  <!-- Footer Section -->
+<footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-links">
+        <span>🖨️</span>
+        <a href="#">Print</a>
+        <span>|</span>
+        <a href="#">Sitemap</a>
+      </div>
+      <p>&copy; Virtual Cockpit</p>
+    </div>
+  </footer>
+  
+  <script>
+    const toggleBtn = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+  
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+  
+  
+</body>
+</html>

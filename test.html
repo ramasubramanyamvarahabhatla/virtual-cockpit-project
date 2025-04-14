@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Legal Notice</title>
+  <link rel="stylesheet" href="test.css" />
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="logo">
+      <img src="logo.png" alt="Virtual Cockpit Logo" />
+    </div>
+    <button class="menu-toggle">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="#">Pricing</a>
+      <a href="#">Command Center</a>
+      <a href="multi-display.html">Easy Multi Display</a>
+      <a href="founder.html">Founder</a>
+      <a href="#" class="legal-btn">Legal Notice</a>
+    </nav>
+  </header>
+
+  <main style="padding: 40px; text-align: center;">
+    <h1>Legal Notice</h1>
+    <p>This is placeholder content to test mobile nav dropdown.</p>
+  </main>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.nav-links');
+      toggle.addEventListener('click', function () {
+        nav.classList.toggle('show-menu');
+      });
+    });
+  </script>
+</body>
+</html>
